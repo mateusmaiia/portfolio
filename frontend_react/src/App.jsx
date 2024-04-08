@@ -1,6 +1,13 @@
 import "./index.css";
 
-import { Testemonial, About, Footer, Header, Skils, Work } from "./container";
+import {
+  Testemonial,
+  About,
+  Footer,
+  HeaderApp,
+  Skils,
+  Work,
+} from "./container";
 import { Navbar } from "./components/index";
 
 import "./App.scss";
@@ -8,7 +15,7 @@ export function App() {
   return (
     <div className="app">
       <Navbar />
-      <Header />
+      <HeaderApp />
       <About />
       <Work />
       <Skils />
